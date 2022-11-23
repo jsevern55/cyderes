@@ -1,4 +1,4 @@
-module test
+module github.com/cyderes
 
 go 1.19
 
@@ -10,4 +10,7 @@ require (
 	golang.org/x/sys v0.2.0 // indirect
 )
 
-require github.com/oschwald/geoip2-golang v1.8.0
+require (
+	github.com/aws/aws-lambda-go v1.35.0
+	github.com/oschwald/geoip2-golang v1.8.0
+)
